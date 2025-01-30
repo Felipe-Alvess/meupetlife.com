@@ -323,12 +323,18 @@ margin-top: 0.5rem;
 {
     color: rgb(255, 114, 94);
 }
+
+
 /* responsive 768px */
 @media (max-width: 768px) {
     header {
         width: 100%;
         display: flex;
         justify-content: space-between;
+    }
+
+    header img{
+        position: relative;
     }
 
     header .bx-menu {
@@ -543,3 +549,39 @@ margin-top: 0.5rem;
 }
 
 /* responsive 768px */
+
+/* responsive 1024 */
+
+@media (max-width: 1024px) {
+    .inicio{
+        width: 100%;
+    }
+    .inicio .btn-links{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .clinica{
+        width: 100%;
+    }
+
+    .clinica .clinica-subtitulo p{
+        width: 100%;
+        line-height: 30px;
+    }
+    .duvidas{
+        width: 100%;
+        padding: 4rem 0 0;
+    }
+
+    .duvidas .duvida h2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 10rem;
+    }
+}
