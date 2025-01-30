@@ -393,7 +393,7 @@ margin-top: 0.5rem;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     .inicio img {
         width: 100%;
@@ -435,7 +435,7 @@ margin-top: 0.5rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 6rem;
+        margin-top: 2rem;
         padding: 2rem 0 0;
     }
 
@@ -445,14 +445,14 @@ margin-top: 0.5rem;
     }
 
     .clinica .clinica-subtitulo p{
-        padding: 0 5rem;
+        padding: 0 2rem;
         text-align: left;
     }
 
     .clinica .clinica-subtitulo ul{
         text-align: left;
         margin-left: 2rem;
-        padding: 1rem 4rem;
+        padding: 1rem 2rem;
     }
 
     .clinica img{
@@ -469,10 +469,12 @@ margin-top: 0.5rem;
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
     .farmacia  h1{
         font-size: 18px;
         padding: 5rem 0 0;
+        margin-top: 2rem;
     }
 
     .farmacia img{
@@ -482,6 +484,8 @@ margin-top: 0.5rem;
 
     .farmacia p {
         text-align: left;
+        margin-top: -1rem;
+        
     }
 
     .duvidas{
@@ -492,8 +496,8 @@ margin-top: 0.5rem;
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-top: 1rem;
-        padding: 0 0 1rem;
+        margin-top: -3rem;
+        
     }
 
      .duvidas img{
@@ -517,17 +521,17 @@ margin-top: 0.5rem;
 
     .duvida .paragraph{
         width: 100%;
-        padding: 0.3rem 1rem;
+        padding: 0.3rem 1rem 0.5rem;
         text-align: left;
+        border: none;
+        
     }
 
     .duvidas .duvida img{
         width: 15px;
     }
 
-    footer {
-        margin-top: 3rem;
-    }
+    
    footer .footer{
         width: 100%;
         display: flex;
