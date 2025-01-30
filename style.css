@@ -584,6 +584,11 @@ footer .footer{
         position: relative;
         top: -10rem;
     }
+
+    .copyright{
+        position: relative;
+        top: -10rem;
+    }
 }
 /* responsive 500px */
 
