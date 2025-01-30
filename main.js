@@ -1,25 +1,36 @@
-// função abrir menu mobile
-function openMenu(){
-    if(menuMobile.style.display == 'block'){
-        menuMobile.style.display = 'none';
-    }else{
-        menuMobile.style.display = 'block';
-    }
-}
-// função abrir menu mobile
-// loadingPage
+// loadingpage
 const elemenPreloader = document.getElementById('preloader');
 function loadingPage(){
-    elemenPreloader.classList.remove('preloader');
+    elemenPreloader.classList.toggle('preloader');
 }
 setTimeout(loadingPage, 3000);
-// loadingPage
-// botao mostrar e esconder lista
-let elementosDuvida = document.querySelectorAll('.duvida');
-elementosDuvida.forEach(function (duvida){
-    duvida.addEventListener('click', function(){
-       duvida.classList.toggle('ativa')
-    
-})
-})
+// loadingpage
 
+// // botao mostrar e esconder lista
+// let elementosDuvida = document.querySelectorAll('.duvida');
+// elementosDuvida.forEach(function (duvida){
+//     duvida.addEventListener('click', function(){
+//        duvida.classList.toggle('ativa')
+    
+// })
+// })
+
+
+const elementosDuvida = document.querySelectorAll('.duvida');
+elementosDuvida.forEach(function(duvida){
+    duvida.addEventListener('click', ()=>{
+        duvida.classList.toggle('ativa');
+      
+    });
+});
+
+
+// btn menu Mobile
+function openMenu(){
+   if(menuMobile.style.display == 'flex'){
+    menuMobile.style.display = 'none';
+   }else{
+    menuMobile.style.display = 'flex';
+   }
+}
+    
