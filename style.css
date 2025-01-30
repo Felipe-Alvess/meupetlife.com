@@ -550,6 +550,43 @@ footer .footer{
     }
    
 }
+/* responsive 500px */
+@media (max-width:500px) {
+    .inicio{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .clinica{
+        width: 100%;
+        height: auto;
+        margin-top: -0.3rem;
+    }
+    .farmacia{
+        width: 100%;
+        height:auto;
+        margin-top: -5rem;
+    }
+
+    .farmacia p{
+        margin-top: 1rem;
+    }
+
+    .duvidas{
+        width: 100%;
+        height: auto;
+        margin-top: -3rem;
+    }
+
+    footer {
+        width: 100%;
+        position: relative;
+        top: -10rem;
+    }
+}
+/* responsive 500px */
+
 
 /* responsive 768px */
 
